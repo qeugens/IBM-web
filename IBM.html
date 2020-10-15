@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>IBM Plex Sans</title>
+    <link rel="stylesheet" href="IBM.css">
+    <style media="screen">
+     html {
+       background: grey;
+       display: block;
+       height: 100%;
+     }
+     body {
+       width: 1152px;
+       background: white;
+       display: block;
+       position: relative;
+       height: 8098px;
+       margin: 0 auto;
+     }
+      body::before {
+        /* background: url(images/main.png); */
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: .4;
+      }
+
+    </style>
+
+  </head>
+  <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+  <script type="text/javascript">
+  $(function() {
+  $('.sidebar a').each(function() {
+    $(this).on('click', function(e) {
+      e.preventDefault();
+      var scrollTo = $(this).attr('href');
+      var whitespace = scrollTo == '#s1' ? 90 : 30;
+      $('html,body').animate({
+        scrollTop: $(scrollTo).offset().top - whitespace
+      }, 1000);
+    });
+  });
+  });
+  </script>
+</script>
+  <body>
+    <section>
+      <div class="head">
+        <div class="consept">
+          <a href="#1"><p>концепция</a></p>
+        </div>
+        <div class="gallery">
+          <a href="#2"><p>галерея</p></a>
+        </div>
+        <div class="company">
+          <a href="#3"><p>о компании</p></a>
+        </div>
+      </div>
+      <div class="block">
+      </div>
+      <div class="IBM">
+        <img src="images/IBM.png" alt="">
+      </div>
+      <div class="plex">
+        <p>plex</p>
+      </div>
+      <div class="sans">
+        <p>sans</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="IBM-">
+        <p>IBM—ясно,<br>глобально,<br>универсально</p>
+      </div>
+      <div class="IBMpic">
+        <img id="1" src="images/IBMpic.png" alt="">
+      </div>
+      <div class="rectangle1">
+        <img src="images/rectangle1.png" alt="">
+      </div>
+      <div class="IBMrec">
+        <p>IBM всегда служил медиумом между<br>людьми и технологиями, между<br>естественным и искусственным,<br>эмоциональным и рациональным,<br>классическим и иновационным. IBM<br>показывает эти отношения через форму</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="IBMtitle1">
+        <p id="2">IBM Plex Sans</p>
+      </div>
+      <div class="IBMsub1">
+        <p>Баланс между натуральным и техническим</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="line1">
+      </div>
+      <div class="line2">
+      </div>
+      <div class="line3">
+      </div>
+      <div class="line4">
+      </div>
+    </section>
+
+    <section>
+      <div class="m">
+        <img src="images/m.png" alt="">
+      </div>
+      <div class="letters">
+        <img src="images/letters.png" alt="">
+      </div>
+      <div class="line5">
+      </div>
+      <div class="line6">
+      </div>
+      <div class="line7">
+      </div>
+      <div class="line8">
+      </div>
+      <div class="rectangle2">
+        <img src="images/rectangle2.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <div class="IBMlines">
+        <img id="3" src="images/IBMlines.png" alt="">
+      </div>
+      <div class="IBMsub2">
+        <p>International Business Machines Corporation</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="rectangle3">
+        <img src="images/rectangle1.png" alt="">
+      </div>
+      <div class="ibmrec">
+        <p>IBM — американская многонациональная<br>технологическая компания со штаб-квартирой<br>в Армонке, Нью-Йорк. IBM производит<br>и продает компьютерное оборудование,<br>связующее ПО и программное обеспечение.</p>
+      </div>
+      <div class="l1">
+      </div>
+      <div class="l2">
+      </div>
+      <div class="line9">
+      </div>
+      <div class="line10">
+      </div>
+      <div class="line11">
+      </div>
+      <div class="data">
+        <img src="images/data.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <div class="money">
+        <img src="images/money.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <div class="fonts">
+        <p>Шрифты IBM</p>
+      </div>
+      <div class="IBMsub3">
+        <p>От веба и подачи документов до редакторов кода</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="line12">
+      </div>
+      <div class="line13">
+      </div>
+      <div class="line14">
+      </div>
+      <div class="fontimg">
+        <img src="images/fonts.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <div class="black">
+      </div>
+      <div class="futer1">
+        <p>Мария Журанкова</p>
+      </div>
+      <div class="futer2">
+        <p>@qeugens</p>
+      </div>
+    </section>
+
+
+  </body>
+</html>
