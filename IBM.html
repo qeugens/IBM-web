@@ -35,7 +35,7 @@
   <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
   <script type="text/javascript">
   $(function() {
-  $('.sidebar a').each(function() {
+  $('.head a').each(function() {
     $(this).on('click', function(e) {
       e.preventDefault();
       var scrollTo = $(this).attr('href');
@@ -47,11 +47,11 @@
   });
   });
   </script>
-</script>
+
   <body>
     <section>
-      <div class="head">
-        <div class="consept">
+      <!-- <div class="head">
+        <div class="conсept">
           <a href="#1"><p>концепция</a></p>
         </div>
         <div class="gallery">
@@ -60,6 +60,11 @@
         <div class="company">
           <a href="#3"><p>о компании</p></a>
         </div>
+      </div> -->
+      <div class="head">
+          <a href="#1">концепция</a>
+          <a href="#2">галерея</a>
+          <a href="#3">о компании</a>
       </div>
       <div class="block">
       </div>
@@ -99,17 +104,6 @@
     </section>
 
     <section>
-      <div class="line1">
-      </div>
-      <div class="line2">
-      </div>
-      <div class="line3">
-      </div>
-      <div class="line4">
-      </div>
-    </section>
-
-    <section>
       <div class="m">
         <img src="images/m.png" alt="">
       </div>
@@ -126,6 +120,17 @@
       </div>
       <div class="rectangle2">
         <img src="images/rectangle2.png" alt="">
+      </div>
+    </section>
+
+    <section>
+      <div class="line1">
+      </div>
+      <div class="line2">
+      </div>
+      <div class="line3">
+      </div>
+      <div class="line4">
       </div>
     </section>
 

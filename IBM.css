@@ -1,49 +1,21 @@
 .head {
   position: absolute;
-  width: 1152px;
+  display: flex;
+  justify-content: space-between;
+  width: 1132px;
   height: 41px;
   left: 0px;
   top: 0px;
   background: #53ACFF;
-}
-.consept {
-  text-decoration: none;
-  position: absolute;
-  width: 212px;
-  height: 43px;
-  left: 11px;
-  top: -33px;
   font-family: IBM Plex Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
+  font-size: 28px;
   line-height: 39px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.gallery {
+.head a {
   text-decoration: none;
-  position: absolute;
-  width: 158px;
-  height: 53px;
-  left: 522px;
-  top: -31px;
-  font-family: IBM Plex Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 39px;
-}
-.company {
-  text-decoration: none;
-  position: absolute;
-  width: 171px;
-  height: 41px;
-  left: 977px;
-  top: -33px;
-  font-family: IBM Plex Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 30px;
-  line-height: 39px;
+  color: black;
 }
 .block {
   position: absolute;
@@ -155,79 +127,123 @@
   position: absolute;
   width: 1152px;
   height: 39px;
-  left: 0px;
   top: 1911px;
   background: #53ACFF;
+  opacity: 0;
+  transition: all 100s ease;
+}
+.line1:hover {
+  opacity: 1;
+  transition: all .2s ease;
 }
 .line2 {
   position: absolute;
   width: 1152px;
   height: 39px;
-  left: 0px;
   top: 1997px;
   background: #53ACFF;
+  opacity: 0;
+  transition: all 100s ease;
+}
+.line2:hover {
+  opacity: 1;
+  transition: all .2s ease;
 }
 .line3 {
   position: absolute;
   width: 1152px;
   height: 39px;
-  left: 0px;
   top: 2083px;
   background: #53ACFF;
+  opacity: 0;
+  transition: all 100s ease;
+}
+.line3:hover {
+  opacity: 1;
+  transition: all .2s ease;
 }
 .line4 {
   position: absolute;
   width: 1152px;
   height: 39px;
-  left: 0px;
   top: 2169px;
   background: #53ACFF;
+  opacity: 0;
+  transition: all 100s ease;
+}
+.line4:hover {
+  opacity: 1;
+  transition: all .2s ease;
 }
 .m {
-  position: absolute;
+  position: relative;
   width: 1153px;
   height: 780px;
-  left: -1px;
+  left: 0px;
   top: 2035px;
 }
 .letters {
   position: absolute;
   width: 1153px;
   height: 1399px;
-  left: -1px;
+  left: 0px;
   top: 2589px;
 }
 .line5 {
   position: absolute;
   width: 1152px;
   height: 39px;
-  left: 1px;
+  left: 0px;
   top: 3992px;
   background: #53ACFF;
+  opacity: 0;
+  transition: all 100s ease;
+}
+.line5:hover {
+  opacity: 1;
+  transition: all .2s ease;
 }
 .line6 {
   position: absolute;
   width: 1152px;
   height: 39px;
-  left: 1px;
+  left: 0px;
   top: 4078px;
   background: #53ACFF;
+  opacity: 0;
+  transition: all 100s ease;
+}
+.line6:hover {
+  opacity: 1;
+  transition: all .2s ease;
 }
 .line7 {
   position: absolute;
   width: 1152px;
   height: 39px;
-  left: 1px;
+  left: 0px;
   top: 4164px;
   background: #53ACFF;
+  opacity: 0;
+  transition: all 100s ease
+}
+.line7:hover {
+  opacity: 1;
+  transition: all .2s ease;
 }
 .line8 {
   position: absolute;
   width: 1152px;
   height: 39px;
-  left: 1px;
+  left: 0px;
   top: 4250px;
   background: #53ACFF;
+  opacity: 0;
+  transition: all 100s ease;
+}
+.line8:hover {
+  opacity: 1;
+  transition: all .2s ease;
 }
 .rectangle2 {
   position: absolute;
